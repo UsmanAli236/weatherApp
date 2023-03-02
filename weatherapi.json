@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": 70,
+        "lat": 30
+    },
+    "weather": [
+        {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 286.72,
+        "feels_like": 285.39,
+        "temp_min": 286.72,
+        "temp_max": 286.72,
+        "pressure": 1023,
+        "humidity": 48,
+        "sea_level": 1023,
+        "grnd_level": 838
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.41,
+        "deg": 128,
+        "gust": 2.81
+    },
+    "clouds": {
+        "all": 98
+    },
+    "dt": 1677735952,
+    "sys": {
+        "country": "PK",
+        "sunrise": 1677721545,
+        "sunset": 1677763147
+    },
+    "timezone": 18000,
+    "id": 1168579,
+    "name": "Pakistan",
+    "cod": 200
+}
