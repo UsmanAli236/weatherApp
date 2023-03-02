@@ -16,11 +16,12 @@ const App = ({props}) => {
       const {temp,humidity,pressure}=getdata.main;
       const {main}=getdata.weather;
       const {name}=getdata;
+      const {weathermood}=getdata;
       const {speed}=getdata.wind;
-      const {country,sunset}=getdata.sys;
+      const {country,sunset,sunrise}=getdata.sys;
       const newWeatherinfo={
         temp,humidity,pressure,
-        main,name,speed,country,sunset
+        main,name,speed,country,sunset,sunrise,weathermood
       }
       setData(newWeatherinfo);
     }

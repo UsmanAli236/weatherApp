@@ -10,7 +10,8 @@ const WeatherCard  = ({data}) => {
         temp,
         sunset,
         sunrise,
-        humidity
+        humidity,
+        speed,
     }=data;
   return (
     <Card>
@@ -19,7 +20,8 @@ const WeatherCard  = ({data}) => {
         <p>Temprature: {temp} &deg;C</p>
         <p>Sunrise: {new Date(sunrise * 1000).toLocaleTimeString('en-IN')}</p>
         <p>Sunset: {new Date(sunset * 1000).toLocaleTimeString('en-IN')}</p>
-        <p>Description: {main}</p>
+        <p>speed: {speed}</p>
+        <p>{main}</p>
         <p>Humidity: {humidity} %</p>
         <p>Day: {moment().format('dddd')}</p>
         <p>Date: {moment().format('LL')}</p>
